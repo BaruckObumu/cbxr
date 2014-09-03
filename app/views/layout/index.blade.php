@@ -1,19 +1,5 @@
-<?php/*
-$connection = mysqli_connect("127.0.0.1", "root", "meggiemoo12", "users");
+<?php
 
-if(mysqli_connect_errno()){
-	echo "CONNECTON ERROR!";
-}
-
-if(isset($_POST['username']) && isset($_POST['password']) && isset($_POST['email']) && isset($_POST['firstname'])){
-$uname = $_POST['username'];
-$pword = $_POST['password'];
-$email = $_POST['email'];
-$fname = $_POST['firstname'];
-
-mysqli_query($connection,"INSERT INTO users.info (username, password, email, firstname)
-VALUES ('$uname', '$pword', '$email', '$fname')");
-}*/
 ?>
 @yield('content')
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
@@ -59,12 +45,8 @@ VALUES ('$uname', '$pword', '$email', '$fname')");
 						<input type="submit" style="height: 35px; width: 85px;" value="submit" />
 					</form>
 				</div>
-				<?php /*
-					if(isset($_POST['username']) && isset($_POST['password']) && isset($_POST['email']) && isset($_POST['firstname'])){
-						
-				 echo "<p style='color: #000; font-family: Arial;'>Thank you for applying $uname! It really means a lot. We'll be sure to send you your premium packages soon!</p>";
-
-					}*/
+				<?php 
+				
 				?>
 				
 			</div>
