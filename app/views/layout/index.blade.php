@@ -38,10 +38,11 @@
 				<h1 style="font-family: 'Rambla', Arial; padding: 0; margin: 0; font-size: 2.7em">Early Sign Up</h1>
 				<div class="inputs">
 					<form action="index.php" method="POST">
-						<input type="text" placeholder="username" class="text-input" name="username" />
+						<input type="text" placeholder="Username" class="text-input" name="username" />
 						<input type="password" placeholder="password" class="text-input" name="password" />
-						<input type="text" placeholder="email" class="text-input" name="email" />
-						<input type="text" placeholder="first name" class="text-input" name="firstname" />
+						<input type="text" placeholder="Email" class="text-input" name="email" />
+						<input type="text" placeholder="First Name" class="text-input" name="firstname" />
+						<input type="text" placeholder="Last Name" class="text-input" name="lastname" />
 						<input type="submit" style="height: 35px; width: 85px;" value="submit" />
 					</form>
 				</div>
