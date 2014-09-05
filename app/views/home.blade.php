@@ -1,5 +1,5 @@
 @extends('layout.index')
 
-@section('content')
+@section('head')
 
 @stop
